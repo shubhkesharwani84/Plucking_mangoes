@@ -45,7 +45,7 @@ function draw() {
 	textSize(20);
   text("Press Space To Try Again!", 450, 50);
 
- background(0);
+ background(255);
  boy2 = image(boy, 200,584, 80 ,150);
   stone.display(); 
  ground.display();
