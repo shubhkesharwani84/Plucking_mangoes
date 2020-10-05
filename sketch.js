@@ -62,7 +62,7 @@ function draw() {
  keyPressed();
 
   drawSprites();
-fill(255); 
+fill(225); 
 textSize(20);
 text("Press Space To Try Again!", 450, 50);
 }
