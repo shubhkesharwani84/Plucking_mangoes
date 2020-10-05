@@ -8,7 +8,7 @@ const Constraint = Matter.Constraint;
 var ground, tree, stone, boy, boy2, mango, mango2, mango3, mango4, mango5, mango6;
 
 function preload(){
-	boy = loadImage("Plucking mangoes/boy.png")
+	boy = loadImage("boy.png")
 }
 
 function setup() {
