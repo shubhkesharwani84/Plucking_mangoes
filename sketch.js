@@ -42,9 +42,6 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-	textSize(20);
-  text("Press Space To Try Again!", 450, 50);
-
  background(255);
  boy2 = image(boy, 200,584, 80 ,150);
   stone.display(); 
@@ -65,7 +62,9 @@ function draw() {
  keyPressed();
 
   drawSprites();
- 
+fill(255); 
+textSize(20);
+text("Press Space To Try Again!", 450, 50);
 }
 
 function mouseDragged(){
